@@ -1,15 +1,21 @@
 # PhotoPicker
-A image picker for iOS , written by Swift.
+📷A image picker for iOS , written by Swift.(support preview the image)
 
 refer: [teambition/PhotoPicker](https://github.com/teambition/PhotoPicker)
 
+## GIF
+![image](https://raw.githubusercontent.com/StormXX/PhotoPicker/master/GIF/PhotoPicker.gif)
+
 ## How To Get Started
-###Carthage
+### Carthage
 Specify "PhotoPicker" in your Cartfile:
 
 ```
 github "StormXX/PhotoPicker"
 ```
+
+## DEMO
+run `carthage update` to fetch the PhotoBrowser. Becaust this PhotoPicker support previewing the photo
 
 ## Usage
 ### configuration  properties
@@ -53,7 +59,7 @@ let localizedString: [String: String] = [
     "PhotoPicker.Videos": LocalizationString("PhotoPicker.Videos"),
     "PhotoPicker.Title" : LocalizationString("PhotoPicker.Title"),
     "PhotoPicker.VideoSelect.Alert": LocalizationString("PhotoPicker.VideoSelect.Alert")
-        ]
+]
 ```
 
 ## Similar
